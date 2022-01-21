@@ -1,0 +1,100 @@
+
+
+body{
+    margin: 0;
+    margin-top: 70px;
+    background-color: #FBF3F3;
+}
+
+
+
+
+
+body{
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+body{
+    display: grid;
+    width: 80%;
+}
+
+#restroaround-header-login
+{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    color: #948A8A;
+}
+
+#login-restroaround{
+    font-size: 40px;
+    line-height: 82px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+   
+}
+
+.sign-in-intro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #777783;;
+
+}
+
+#user-email{
+  width: 500px;
+  padding: 10px;
+  color: #5E5F6D;
+  border: 1px solid hsla(0, 7%, 79%, 1) ;
+  border-color: hsla(0, 7%, 79%, 1);
+  border-radius: 8px;
+}
+#user-password{
+    width: 500px;
+    padding: 5px;
+    padding: 10px;
+  color: #5E5F6D;
+  border: 1px solid hsla(0, 7%, 79%, 1) ;
+  border-color: hsla(0, 7%, 79%, 1);
+  border-radius: 8px;
+}
+
+.forgot-password{
+    margin-top: 20px;
+}
+
+.input-label{
+    margin-top: 20px;
+   
+}
+label{
+    color: hsla(236, 7%, 40%, 1);
+}
+
+#login-button{
+    font-size: 12px;
+    width: 510px;
+    padding: 15px;
+    background-color: hsla(234, 100%, 65%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    border: 0px;
+    cursor: pointer;
+}
+
+.forgot-password a{
+    padding-left: 200px;
+    color: hsla(234, 100%, 65%, 1);
+}
+
+.fa-check-circle{
+    font-size: 20px;
+    color: green;
+}
+
+
+#login-button:hover{
+    background-color: hsla(234, 100%, 65%, 1);
+    opacity: 0.95;
+}
