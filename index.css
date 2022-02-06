@@ -60,7 +60,7 @@ a{
 
 
 body{
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 
@@ -112,27 +112,33 @@ body{
 }
 
 /* Search Bar */
-.search-container{
+/* .search-container{
     background-color: #EDEEF2;
     min-width: 100px;
     max-width: 300px;
-    /* width: 20%; */
+    width: 20%;
     border-radius: 20px 20px;
+} */
 
-
-}
 
 
 .search-input{
+    min-width: 200px;
+    max-width: 300px;
     float: left;
     padding: 10px 10px;
     border: none;
     background-color: #EDEEF2;
     border-radius: 20px 20px;
-    
-
-    
 }
+
+.search-input:hover{
+    background-color: #EDEEF2;
+}
+/* .search-input:active{
+    border: 1px solid #F7ECDE;
+} */
+
 
 .search-button{
     padding: 10px 10px;
@@ -323,8 +329,79 @@ h2.section-introduction{
 /* Food Section for Order Now*/
 .popular-food-name{
     font-size: 14px;
+}
+
+.popular-food-description{
+    font-size: 12px;
+}
+
+.below-image-card{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.add-to-chart{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7px;
+}
+
+.fa-trash-alt{
+    padding-left: 1px;
+}
+
+.fa-plus-circle, .fa-trash-alt{
+    font-size: 20px;
+    color: hsla(0, 0%, 60%, 1);
 
 }
+
+
+/* Overwriting grid-card for popular Foods */
+.popular-food{
+    grid-gap: 15px;
+    justify-content: start;
+    align-items: start;
+   
+}
+
+.popular-food img{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    height: 282px;
+    
+}
+
+.inside-popular-food h4.popular-food-name{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 14px;
+}
+
+
+/* Creating a inside popular food Grid: Title And Description*/
+
+.inside-popular-food{
+    display: grid;
+    grid-gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inside-popular-food .popular-food-description{
+    width: 80%;
+    height: 100%;
+    line-height: 18px;
+}
+
+/* Ends Inside Popular Food Grid */
+
+/* Ends grid-card for popular food */
+
 
 
 /* Ends Food Section */
@@ -466,4 +543,5 @@ line-height: 10px;
 
 }
 
+/* Creating Website Responsive */
 

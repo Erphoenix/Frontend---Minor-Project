@@ -98,3 +98,37 @@ label{
     background-color: hsla(234, 100%, 65%, 1);
     opacity: 0.95;
 }
+
+
+/* Lines */
+
+
+/* .lines{
+    margin-left: -220px;
+    /* margin-right: -50%; */
+
+.line1{
+    position: absolute;
+    border-style: solid;
+    width:500px;
+    height: 530px;
+    border-width: 1px 0px 0px 1px;
+    transform:rotate(-20deg);
+    left: 50px;
+    border-color: hsla(0, 84%, 47%, 1);
+
+}
+
+.line2{
+    position: absolute;
+    border-style: solid;
+    width:500px;
+    height: 500px;
+    border-width: 1px 0px 0px 1px;
+    transform:rotate(-20deg);
+    left: 140px;
+    top: 95px;
+    border-color: hsla(0, 84%, 47%, 1);
+
+}
+

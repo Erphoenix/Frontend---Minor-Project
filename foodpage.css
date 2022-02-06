@@ -1,0 +1,126 @@
+.restro-header{
+
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+ 
+}
+
+.pick-food-pick-hotel{
+    background-color: #f8f7f7;
+    border-radius: 20px;
+  
+    max-width: 1000px;
+    width: 100%;
+    /* opacity: 0.21; */
+}
+
+.inside-pick-food-hotel{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.25fr;
+    grid-gap: 30px;
+    max-width: 850px;
+    padding-left: 50px;
+    justify-content: center;
+    align-content:center;
+   
+}
+
+#fname{
+    width: 100%;
+    padding: 10px 5px 10px 10px;
+    background-color: #d5d5d5;
+    border: 0px;
+    border-radius: 10px;
+    color: #949494;
+}
+
+#search{
+    width: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+    margin-top: 15px;
+    background-color: #fe3434;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    /* height: 30px; */
+}
+
+label{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/* Aside Section with Day food category */
+
+.food-day-category{
+    float: left;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 500px;
+    margin-right: 0px;
+}
+
+.utensils{
+    display: grid;
+
+}
+
+.fa-utensils{
+    background-color: #d5d5d5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.food-day-category .utensils p{
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Filter */
+
+.right-side-filter{
+    margin-top: 40px;
+    display: grid; 
+    float: right;
+    margin-right: 150px;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+#your-location{
+    display: block;
+    width: 100%;
+    grid-column: 1/3;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #d3edfc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #342F2F;
+    border-radius: 5px;
+}
+
+.select-option{
+    padding: 5px 5px 5px 5px;
+    background-color: #d3edfc; 
+    color: #342F2F;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+/* Footer Section */
+
+
