@@ -247,10 +247,10 @@ section.our-speciality{
    
 }
 
-label{
+.input-form label{
     display: block;
 }
-input{
+.input-form input{
     display: block;
 }
 .input-form label{

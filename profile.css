@@ -1,0 +1,43 @@
+.main-profile-section{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+
+}
+
+.main-profile-section .user-portrait{
+    background-image: url("images/profile/main-por.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.main-profile-section .profile-details{
+    height:250px;
+    width: 250px;
+    background-color: #f9fcf5;
+}
+
+#profile-table{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+#profile-table tr{
+    border-bottom: 1px solid #BBD3CE;
+}
+
+#profile-table td{
+    display: block;    
+    width: 100%;
+    padding-top: 10px;
+    /* margin-top: 15px; */
+    text-align: center;
+    padding-bottom: 10px;
+}
+
